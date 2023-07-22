@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class ChiliToGo {
 
 	public static void main(String[] args) {
