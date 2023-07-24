@@ -1,3 +1,23 @@
+/*
+Farrel Joyce - Java Programming, 10th Edition (2023)
+
+Chapter 02, Case Problems 2
+
+Task:
+Sunshine Seashore Supplies rents beach equipment such as kayaks, canoes, beach chairs, and umbrellas to
+tourists. Write a program that prompts the user for the number of minutes the user rented a piece of sports
+equipment. Compute the rental cost as $40 per hour plus $1 per additional minute. (You might have surmised
+already that this rate has a logical flaw, but for now, calculate rates as described here. You can fix the problem
+after you learn about decision making.) Display Sunshine’s motto with the border that you created in the
+SunshineMotto2 class in Chapter 1. Then display the hours, minutes, and total price. Save the file as
+SunshineRentalPrice.java.
+
+Written by: Jakov Milas
+https://github.com/JakovMilas/java-farell-joyce-10th-edition
+*/
+
+
+
 import java.util.Scanner;
 
 public class SunshineRentalPrice {
