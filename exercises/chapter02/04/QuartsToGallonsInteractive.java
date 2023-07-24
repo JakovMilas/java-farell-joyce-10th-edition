@@ -4,9 +4,9 @@ Farrel Joyce - Java Programming, 10th Edition (2023)
 Chapter 02, exercise 04b
 
 Task:
-Write an interactive version of the InchesToFeet class that accepts the inches value from a user.
-Save the class as InchesToFeetInteractive.java.
-
+Convert the QuartsToGallons program to an interactive application. Instead of
+assigning a value to the number of quarts, accept the value from the user as input.
+Save the revised program as QuartsToGallonsInteractive.java.
 Written by: Jakov Milas
 https://github.com/JakovMilas/java-farell-joyce-10th-edition
 */
