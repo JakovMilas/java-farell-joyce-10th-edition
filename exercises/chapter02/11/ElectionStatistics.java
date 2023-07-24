@@ -1,3 +1,19 @@
+/*
+Farrel Joyce - Java Programming, 10th Edition (2023)
+
+Chapter 02, exercise 11
+
+Task:
+Write a program that accepts as user input the names of three political parties and the number of votes each
+received in the last mayoral election. Display the percentage of the vote each party received. Save the program
+as ElectionStatistics.java.
+
+Written by: Jakov Milas
+https://github.com/JakovMilas/java-farell-joyce-10th-edition
+*/
+
+
+
 import java.util.Scanner;
 
 public class ElectionStatistics {
