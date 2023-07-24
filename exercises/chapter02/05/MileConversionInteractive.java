@@ -1,3 +1,19 @@
+/*
+Farrel Joyce - Java Programming, 10th Edition (2023)
+
+Chapter 02, exercise 05b
+
+Task:
+Convert the MileConversions program to an interactive application. Instead of assigning a
+value to the miles variable, accept the value from the user as input. Save the revised program as
+MileConversionsInteractive.java.
+
+Written by: Jakov Milas
+https://github.com/JakovMilas/java-farell-joyce-10th-edition
+*/
+
+
+
 import java.util.Scanner;
 
 public class MileConversionInteractive {
