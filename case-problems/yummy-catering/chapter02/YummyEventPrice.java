@@ -1,3 +1,22 @@
+/*
+Farrel Joyce - Java Programming, 10th Edition (2023)
+
+Chapter 02, Case Problems 1
+
+Task:
+Yummy Catering provides meals for parties and special events. Write a program that prompts the user for the
+number of guests attending an event and then computes the total price, which is $35 per person. Display the
+company motto with the border that you created in the YummyMotto2 class in Chapter 1, and then display
+the number of guests, price per guest, and total price. Also display a message that indicates true or false
+depending on whether the job is classified as a large event—an event with 50 or more guests. Save the file as
+YummyEventPrice.java.
+
+Written by: Jakov Milas
+https://github.com/JakovMilas/java-farell-joyce-10th-edition
+*/
+
+
+
 import java.util.Scanner;
 
 public class YummyEventPrice {
