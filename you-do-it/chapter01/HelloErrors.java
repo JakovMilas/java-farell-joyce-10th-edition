@@ -1,3 +1,4 @@
+
 public class HelloErrors {
 
 	public static void main(String[] args) {
