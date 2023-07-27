@@ -23,7 +23,6 @@ https://github.com/JakovMilas/java-farell-joyce-10th-edition
 */
 
 
-
 import java.util.Scanner;
 
 public class YummyEventPriceWithMethods {
