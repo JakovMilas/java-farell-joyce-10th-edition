@@ -23,8 +23,6 @@ public class JobPricing {
 
 	public static void main(String[] args) {
 
-		final double COST_WORKING_PER_HOUR = 35.0;
-		final double COST_TRAVELING_PER_HOUR = 12;
 		String jobName;
 		int workHours;
 		int travelHours;
