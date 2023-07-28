@@ -16,7 +16,6 @@ https://github.com/JakovMilas/java-farell-joyce-10th-edition
 */
 
 
-
 public class Comments {
 
 	public static void main(String[] args) {
