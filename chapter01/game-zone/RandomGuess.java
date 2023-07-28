@@ -16,7 +16,6 @@ https://github.com/JakovMilas/java-farell-joyce-10th-edition
 */
 
 
-
 import javax.swing.JOptionPane;
 
 public class RandomGuess {
