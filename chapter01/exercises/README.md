@@ -1,1 +1,1 @@
-# Chapter 01 = Creating Java Programs - Exercises
+# Chapter 01 - Creating Java Programs - Exercises
