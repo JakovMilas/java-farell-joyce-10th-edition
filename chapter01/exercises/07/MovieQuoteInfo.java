@@ -13,7 +13,6 @@ https://github.com/JakovMilas/java-farell-joyce-10th-edition
 */
 
 
-
 public class MovieQuoteInfo {
 
 	public static void main(String[] args) {
