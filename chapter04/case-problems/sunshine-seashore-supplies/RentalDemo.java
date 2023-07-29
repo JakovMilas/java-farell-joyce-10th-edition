@@ -39,7 +39,7 @@ public class RentalDemo {
 	}
 
 	public static void displayDetails(Rental rental) {
-		System.out.println("\nRental $" + rental.getContractNumber() + " details:");
+		System.out.println("\nRental #" + rental.getContractNumber() + " details:");
 		System.out.println("Time rented: " + rental.getHoursRented() + "hrs " +
 						rental.getMinutesOverHourRented() + "min");
 		System.out.println("Rental price: " + rental.getPrice());
