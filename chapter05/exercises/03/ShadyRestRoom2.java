@@ -21,7 +21,7 @@ import java.util.Scanner;
 public class ShadyRestRoom2 {
 
 	public static void main(String[] args) {
-	
+
 		final int QUEEN_CODE = 1;
 		final int KING_CODE = 2;
 		final int SUITE_CODE = 3;
@@ -41,9 +41,10 @@ public class ShadyRestRoom2 {
 
 		System.out.println("\nEnter code:");
 		System.out.print("1 for Queen bed ($" + QUEEN_PRICE + ")" +
-				"\n2 for King bed ($" + KING_PRICE + ")" +
-				"\n3 for King bed with pullout couch ($" +
-				SUITE_PRICE + ")\n >> ");
+						 "\n2 for King bed ($" + KING_PRICE + ")" +
+						 "\n3 for King bed with pullout couch ($" +
+						 SUITE_PRICE + ")\n >> ");
+
 		roomCode = input.nextInt();
 
 		switch (roomCode) {
@@ -76,9 +77,7 @@ public class ShadyRestRoom2 {
 			System.out.print("1 lake view with additional $" + LAKE_VIEW_ADDON_PRICE +
 							"\n2 park view with no additional price\n >> ");
 			viewCode = input.nextInt();
-		}
 
-		if (isCodeValid)
 			if (viewCode == PARK_VIEW_CODE)
 				viewMessage = "park";
 			else
@@ -89,14 +88,12 @@ public class ShadyRestRoom2 {
 				System.out.println("Invalid code for view, lake view selected");
 				viewMessage = "lake";
 				price = price + LAKE_VIEW_ADDON_PRICE;
-			} 
-		
-		if (isCodeValid)
+			}
+
 			System.out.print("You selected " + roomMessage + " and " + viewMessage +
 						" view, price is $" + price);
-		else
+		} else
 			System.out.println("invalid room code selected");
-	
 	}
 
 }
