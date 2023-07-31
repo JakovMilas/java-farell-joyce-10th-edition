@@ -12,8 +12,6 @@ public class EvenOdd {
 		System.out.print("Enter an number >> ");
 		number = input.nextInt();
 
-		isEven(number);
-
 		if (isEven(number))
 			message = "even";
 		else
