@@ -26,7 +26,6 @@ public class RandomGuess2 {
 		String userInput = JOptionPane.showInputDialog(null,
 						"Guess a number from 1 to 10");
 		int guess = Integer.parseInt(userInput);
-
 		if (guess < randomNumber)
 			message = "Your guess is lower than random number";
 		else
