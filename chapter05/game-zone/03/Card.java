@@ -22,10 +22,10 @@ public class Card {
 	private int value;
 
 	public void setValue(int value) {
-		if (value > 1 && value <= 13)
-			this.value = value;
-		else
+		if (value < 1 && value > 13)
 			this.value = 1;
+		else
+			this.value = value;
 	}
 
 	public void setSuit(char suit) {
