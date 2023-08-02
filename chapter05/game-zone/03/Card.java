@@ -16,6 +16,7 @@ https://github.com/JakovMilas/java-farell-joyce-10th-edition
 */
 
 
+
 public class Card {
 
 	private char suit;
