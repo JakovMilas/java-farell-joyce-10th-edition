@@ -29,10 +29,13 @@ public class War {
 		Card computer = new Card();
 
 		player.setValue(generateValue());
-		player.setSuit(generateSuit(' '));
+		player.setSuit(generateSuit(' ')); // dummy argument
 		computer.setValue(generateValue());
-		computer.setSuit(generateSuit(' '));
+		computer.setSuit(generateSuit(' ')); // dummy argument
 
+		// if both player and computer have the same values for card
+		// value and card suit, generateSuit() method is called again
+		// for computer's suit with player's suit as argument
 		if (player.getValue() == computer.getValue() &&
 			player.getSuit() == computer.getSuit())
 				computer.setSuit(generateSuit(player.getSuit()));
@@ -71,6 +74,8 @@ public class War {
 				suit = 'S';
 				break;
 		}
+		// if computer's suit is same again, method generateSuit()
+		// is recursively called until suits are different
 		if (suit == playerSuit)
 			generateSuit(playerSuit);
 		return suit;
