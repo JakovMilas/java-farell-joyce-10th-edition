@@ -12,6 +12,7 @@ https://github.com/JakovMilas/java-farell-joyce-10th-edition
 */
 
 
+
 public class Die {
 
 	private int value = (int)(Math.random() * 6) + 1;
