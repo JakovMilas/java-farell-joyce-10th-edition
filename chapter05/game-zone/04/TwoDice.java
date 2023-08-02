@@ -13,7 +13,6 @@ Written by: Jakov Milas
 https://github.com/JakovMilas/java-farell-joyce-10th-edition
 */
 
-
 public class TwoDice {
 
 	public static void main(String[] args) {
