@@ -4,17 +4,16 @@ Farrel Joyce - Java Programming, 10th Edition (2023)
 Chapter 06, Case Problems 2
 
 Task:
-Write a program that demonstrates using the Rental class as follows:
- ❯❯ Instantiate three Rental objects, and prompt the user for values
-    for each object.
- ❯❯ Display the details for each object to verify that the new price
-    calculation works correctly.
- ❯❯ Create a method that accepts two Rental objects and returns the one
-    with the longer rental time. (If the Rentals have the same time, you
-	can return either object.) Call this method three times—once with
-	each pair of instantiated Rentals—and display the contract number and
-	time in hours and minutes for each argument as well as the contract
-	number of the longer Rental.
+Sunshine Seashore Supplies rents beach equipment to tourists. In previous chapters,
+you developed a Rental class that holds equipment rental information and an
+application that tests the methods using three objects of the class. Now create
+a RentalDemo class to do the following:
+ ❯❯ Construct three Rental objects.
+ ❯❯ Continually prompt the user for the number of minutes of each Rental until the
+ value falls between 60 and 7,200 inclusive.
+ ❯❯ Display the details for each Rental object.
+ ❯❯ Display Have fun and be safe in Hour 1, Have fun and be safe in Hour 2, and so
+ on for the number of hours in the shortest Rental.
 Save the file as RentalDemo.java.
 
 Written by: Jakov Milas
