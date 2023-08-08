@@ -7,7 +7,7 @@ Task:
 Write an application that determines whether a phrase entered by the user is a palindrome.
 A palindrome is a phrase that reads the same backward and forward without regarding
 capitalization or punctuation. For example, Dot saw I was Tod, Was it a car or a cat I saw?,
-and Madam, I’m Adam are palindromes. Save the file as Palindrome.java.
+and Madam, I'mm Adam are palindromes. Save the file as Palindrome.java.
 
 Written by: Jakov Milas
 https://github.com/JakovMilas/java-farell-joyce-10th-edition
