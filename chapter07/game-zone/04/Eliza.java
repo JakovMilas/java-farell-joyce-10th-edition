@@ -81,17 +81,11 @@ public class Eliza {
 			if (answer.contains(" his "))
 				question = "What about his " + extractWord(answer, " his ");
 		else
-			if (answer.contains(" i "))
-				question = "Dou you often talk about yourself, " + name + "?";
-		else
 			if (answer.contains("your name"))
 				question = "My name is Eliza";
 		else
-			if (answer.contains(" talk "))
-				question = "You are talking to much, " + name;
-		else
 			if (answer.contains(" not "))
-				question = "Why not " + extractWord(answer, " not ");
+				question = "..." + extractWord(answer, " not ") + "?";
 		else
 			if (answer.contains(" about "))
 				question = "What about " + extractWord(answer, " about ");
