@@ -1,1 +1,1 @@
-# Chapter 07 -  Characters, Stringa and the StringBuilder, Game Zone
+# Chapter 07 -  Characters, Strings and the StringBuilder, Game Zone
