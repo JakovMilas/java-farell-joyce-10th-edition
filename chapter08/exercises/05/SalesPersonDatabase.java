@@ -101,7 +101,7 @@ public class SalesPersonDatabase
 					id = input.nextInt();
 					input.nextLine();
 					id = search(persons, id, count);
-					if(id < 0|| id > count)
+					if(id < 0)
 					{
 						System.out.println("ERROR >>> Invalid ID!");
 						System.out.print("PRESS ENTER to continue...");
