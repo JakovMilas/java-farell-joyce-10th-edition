@@ -28,7 +28,7 @@ public class DrugTest3
 		System.out.println("\nPickering Trucking Company: DRUG TEST\n");
 		for(int i = 0; i < NUM_WEEKS; i++) {
 			weeks[i] = random.nextInt(NUM_EMPS) + 1;
-			if(i > 0 && weeks[i] == weeks[i - 1]) {
+			while (i > 0 && weeks[i] == weeks[i - 1]) {
 				weeks[i] = random.nextInt(NUM_EMPS) + 1;
 				System.out.println("On week " + (i + 1) + " employee was reselected");
 			}
