@@ -37,7 +37,7 @@ public class SalesPersonSort
 		}
 		entry = JOptionPane.showInputDialog(null, "How do you want to sort salespersons:\n" +
 				"by id\nby sales");
-		sort(persons, entry);
+		sort(persons, count, entry);
 		display(persons);
 	}
 
@@ -51,10 +51,10 @@ public class SalesPersonSort
 
 	}
 	
-	public static void sort(SalesPerson[] persons, String by)
+	public static void sort(SalesPerson[] persons, int count, String by)
 	{
-		int comparisonsToMake = persons.length - 1;
-		for(int x = 0; x < persons.length - 1; x++)
+		int comparisonsToMake = count - 1;
+		for(int x = 0; x < count - 1; x++)
 		{
 			for(int y = 0; y < comparisonsToMake; y++)
 			{
