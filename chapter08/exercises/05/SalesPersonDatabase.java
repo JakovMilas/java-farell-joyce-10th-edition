@@ -58,62 +58,64 @@ public class SalesPersonDatabase
 					input.nextLine();
 				}
 			}
-			else if(entry.startsWith("c"))
-			{
-				if(count == 0)
+			else
+				if(entry.startsWith("c"))
 				{
-					System.out.println("ERROR >>> Database is empty!");
-					System.out.print("PRESS ENTER to continue...");
-					input.nextLine();
-				}
-				else
-				{
-					System.out.print("Enter salesperson ID to change sales amount >> ");
-					id = input.nextInt();
-					input.nextLine();
-					id = search(persons, id, count);
-					if(id < 0)
+					if(count == 0)
 					{
-						System.out.println("ERROR >>> Invalid ID!");
+						System.out.println("ERROR >>> Database is empty!");
 						System.out.print("PRESS ENTER to continue...");
 						input.nextLine();
 					}
 					else
 					{
-						System.out.print("Enter new sales value >> ");
-						amount = input.nextDouble();
+						System.out.print("Enter salesperson ID to change sales amount >> ");
+						id = input.nextInt();
 						input.nextLine();
-						persons[id].setSalesAmount(amount);
+						id = search(persons, id, count);
+						if(id < 0)
+						{
+							System.out.println("ERROR >>> Invalid ID!");
+							System.out.print("PRESS ENTER to continue...");
+							input.nextLine();
+						}
+						else
+						{
+							System.out.print("Enter new sales value >> ");
+							amount = input.nextDouble();
+							input.nextLine();
+							persons[id].setSalesAmount(amount);
+						}
 					}
-				}
 			}
-			else if(entry.startsWith("d"))
-			{
-				if(count == 0)
+			else
+				if(entry.startsWith("d"))
 				{
-					System.out.println("ERROR >>> Database is emtpy!");
-					System.out.print("PRESS ENTER to continue...");
-					input.nextLine();
-				}
-				else
-				{
-					System.out.print("Enter salesperson ID to delete record >> ");
-					id = input.nextInt();
-					input.nextLine();
-					id = search(persons, id, count);
-					if(id < 0)
+					if(count == 0)
 					{
-						System.out.println("ERROR >>> Invalid ID!");
+						System.out.println("ERROR >>> Database is emtpy!");
 						System.out.print("PRESS ENTER to continue...");
 						input.nextLine();
 					}
 					else
 					{
-						System.out.println("No further processing available!");
-						System.out.print("PRESS ENTER to continue...");
+						System.out.print("Enter salesperson ID to delete record >> ");
+						id = input.nextInt();
 						input.nextLine();
+						id = search(persons, id, count);
+						if(id < 0)
+						{
+							System.out.println("ERROR >>> Invalid ID!");
+							System.out.print("PRESS ENTER to continue...");
+							input.nextLine();
+						}
+						else
+						{
+							System.out.println("No further processing available!");
+							System.out.print("PRESS ENTER to continue...");
+							input.nextLine();
+						}
 					}
-				}
 			}
 			else
 				System.out.println("ERROR >>> Wrong input, try again!");
