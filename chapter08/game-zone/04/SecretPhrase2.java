@@ -63,18 +63,12 @@ public class SecretPhrase2 {
 
 	public static String hidePhrase(String phrase) {
 		char c;
-		boolean isWord = false;
 		int phraseLen = phrase.length();
 		StringBuilder strBuilder = new StringBuilder();
 		for (int i = 0; i < phraseLen; i++) {
 			c = phrase.charAt(i);
 			if (phrase.charAt(i) == ' ') {
 				strBuilder.append(' ');
-				isWord = true;
-			} else
-				if (isWord) {
-				strBuilder.append('*');
-				isWord = false;
 			} else
 				strBuilder.append('*');
 		}
