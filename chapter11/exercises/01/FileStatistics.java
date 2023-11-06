@@ -31,7 +31,7 @@ public class FileStatistics
 					Path filePath = Paths.get("file.txt");
 					Path fullPath = filePath.toAbsolutePath();
 					BasicFileAttributes attr = Files.readAttributes(fullPath, BasicFileAttributes.class);
-					if(fileName.equals(fullPath.getFileName().toString()))
+					if((fileName.equals(fullPath.getFileName().toString()) && Files.exists(filePath)))
 					{
 						System.out.println("\nFile path: " + fullPath.toString());
 						System.out.println("File name: " + fullPath.getFileName());
@@ -47,7 +47,6 @@ public class FileStatistics
 				catch(IOException e)
 				{
 						System.out.println(e);
-						System.out.println("ERROR");
 				}
 		}
 }
