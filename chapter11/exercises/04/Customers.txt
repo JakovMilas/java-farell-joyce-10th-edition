@@ -1,0 +1,2 @@
+123,Jakov,Milas,1000.0
+999,Zoran,Milas,2000.0
