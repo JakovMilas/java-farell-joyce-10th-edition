@@ -1,7 +1,7 @@
 /*
 Farrel Joyce - Java Programming, 10th Edition (2023)
 
-Chapter 11, exercise 4c
+Chapter 11, exercise 4b
 
 Task:
 Write an application that reads the file created by the WriteCustomerList application and displays
