@@ -27,8 +27,6 @@ public class DisplaySelectedCustomer
 				String s = "";
 				String[] array = new String[4];
 				int id = 0;
-				String firstName, lastName;
-				double balance;
 				String delimiter = ",";
 				boolean isFound = false;;
 				Scanner keyboard = new Scanner(System.in);
@@ -44,14 +42,9 @@ public class DisplaySelectedCustomer
 						{
 								array = s.split(delimiter);
 								id = Integer.parseInt(array[0]);
-								firstName = array[1];
-								lastName = array[2];
-								balance = Double.parseDouble(array[3]);
 								if(userInput == id)
 								{
-										for(int i = 0; i < array.length; i++)
-												System.out.print(array[i] + " ");
-										System.out.println();
+										System.out.println(s);
 										isFound = true;
 								}
 								s = reader.readLine();
