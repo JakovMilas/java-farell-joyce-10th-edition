@@ -1,2 +1,5 @@
 123,Jakov,Milas,1000.0
 999,Zoran,Milas,2000.0
+323,Karlo,Milas,3000.0
+234,Ivan,Dedic,6000.0
+234,Mate,Matic,3200.0
