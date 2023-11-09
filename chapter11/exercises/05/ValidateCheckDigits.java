@@ -28,7 +28,6 @@ public class ValidateCheckDigits
 				String s = "";
 				int sum = 0;
 				int i;
-				int lastDigit;
 				boolean isValid = false;
 				int[] numbers = new int[6];
 
