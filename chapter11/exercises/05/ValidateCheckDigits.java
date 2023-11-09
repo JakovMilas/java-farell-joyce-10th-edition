@@ -41,9 +41,7 @@ public class ValidateCheckDigits
 						while(s != null)
 						{
 								for(i = 0; i < s.length(); i++)
-								{
 										numbers[i] = Character.getNumericValue(s.charAt(i));
-								}
 								for(i = 0; i < numbers.length - 1; i++)
 										sum += numbers[i];
 								if(sum % 10 == numbers[numbers.length - 1])
