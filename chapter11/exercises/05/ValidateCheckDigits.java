@@ -27,6 +27,7 @@ public class ValidateCheckDigits
 				Path fullPath = file.toAbsolutePath();
 				String s = "";
 				int sum = 0;
+				int lastDigit;
 				int i;
 				boolean isValid = false;
 				int[] numbers = new int[6];
@@ -40,10 +41,12 @@ public class ValidateCheckDigits
 						while(s != null)
 						{
 								for(i = 0; i < s.length(); i++)
+								{
 										numbers[i] = Character.getNumericValue(s.charAt(i));
-								for(i = 0; i < numbers.length - 1; i++)
 										sum += numbers[i];
-								if(sum % 10 == numbers[numbers.length - 1])
+								}
+								lastDigit = numbers[numbers.length - 1];
+								if((sum - lastDigit) % 10 == lastDigit)
 								{
 										System.out.println(s);
 										isValid = true;
