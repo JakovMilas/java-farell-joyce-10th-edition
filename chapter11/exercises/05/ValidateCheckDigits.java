@@ -7,7 +7,7 @@ Task:
 Using a text editor, create a file that contains a list of at least 15 six-digit account numbers. Write a program
 that reads in each account number in the file, and display whether the account number is valid. An account
 number is valid only if the last digit is equal to the remainder when the sum of the first five digits is divided
-by 10. For example, the number 223355 is valid because the sum of the first five digits is 15, the remainder
+by 10. For example, the number 223355 is valid because the sum of the first five digits is 15, the rem;ainder
 when 15 is divided by 10 is 5, and the last digit is 5. Write only valid account numbers to an output file, each
 on its own line. Save the application as ValidateCheckDigits.java.
 
